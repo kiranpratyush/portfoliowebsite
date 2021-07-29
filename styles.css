@@ -171,3 +171,29 @@ hr{
     text-align: center;
 }
 
+.blog-container{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+}
+.blog-container div{
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+@media (max-width:570px)
+{
+    .project-container{
+        display:flex;
+        flex-direction:column;
+
+    }
+    .project-container div{
+        width:100%;
+        margin-bottom: 1.2rem;
+    }
+    
+    
+}

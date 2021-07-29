@@ -68,6 +68,7 @@ hr{
 
 /* nav bar */
 .navigation{
+    width:100%;
     display: flex;
     justify-content: space-between;
     background-color:var(--primary-color);
@@ -86,6 +87,7 @@ hr{
 
 .navigation ul {
     text-align:right;
+    padding:0;
 }
 
 .link-active{
@@ -194,6 +196,13 @@ hr{
         width:100%;
         margin-bottom: 1.2rem;
     }
-    
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color:var(--primary-color);
+        padding:1rem;
+        border-radius:0px 0px 0px 1rem;
+    }
     
 }
